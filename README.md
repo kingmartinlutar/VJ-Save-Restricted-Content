@@ -9,7 +9,7 @@
 ---
 
 ## Variables
-
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Codeflix-Bots/FileStore)
 - `API_HASH` : Your API Hash From [Telegram Website](https://my.telegram.org)
 - `API_ID` : Your API ID From [Telegram Website](https://my.telegram.org)
 - `BOT_TOKEN` : Your Bot Token From [BotFather](https://telegram.me/BotFather)
