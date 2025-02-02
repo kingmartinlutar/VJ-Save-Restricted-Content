@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: file-store-bot
+    runtime: python
+    buildCommand: "pip install -r requirements.txt && python3 -m bot"
+    startCommand: "python3 main.py"
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: PYTHON_VERSION
+        value: 3.9.16
+      - key: TG_BOT_TOKEN
+        description: "8056263089:AAHMI88zp5GyHzeaQS82BKNzGFzEI_5DAPs"
+      - key: APP_ID
+        description: "API ID from my.telegram.org"
+      - key: API_HASH
+        description: "API Hash from my.telegram.org"
+       # Replace with your channel ID
+      - key: DATABASE_URL
+        description: "mongodb+srv://lelouchlightlevi:gZRinZeJNXI55Va0@cluster0.n99js.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+      - key: ADMINS
+        value: "7328629001"  # Replace with admin user IDs (space-separated)
